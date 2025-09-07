@@ -14,3 +14,14 @@ Thumbs.db
 node_modules/
 __pycache__/
 *.pyc
+# Ignore Terraform files and folders
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+crash.log
+override.tf
+override.tf.json
+*.auto.tfvars
+*.tfplan
+.terraformrc
+terraform.rc
