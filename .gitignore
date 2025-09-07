@@ -1,0 +1,16 @@
+# Ignore OS files
+.DS_Store
+Thumbs.db
+# Ignore logs and backups
+*.log
+*.bak
+# Ignore archives and large files
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+# Ignore node_modules and Python cache (if applicable)
+node_modules/
+__pycache__/
+*.pyc
